@@ -26,7 +26,7 @@ docker-compose run web python manage.py test
 /api/v1/Obf/<int:pk>/update/       cores.views.Obfuscated_update   cores:Obfuscated_update
 /api/v1/Obf/create/                cores.views.Obfuscated_create   cores:Obfuscated_create
 /api/v2/obfuscateds/               cores.views.obfuscateds         cores:obfuscateds
-/api/v2/obfuscateds/<int:pk>/      cores.views.obfuscateds       cores:obfuscated
+/api/v2/obfuscateds/<int:pk>/      cores.views.obfuscateds         cores:obfuscated
 ```
 ### List data Obfuscated
 
