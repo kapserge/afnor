@@ -52,3 +52,6 @@ http POST http://localhost:8000/api/v2/obfuscateds/1/ \
 ```
 http DELETE http://localhost:8000/api/v2/obfuscateds/1/
 ```
+## TDD
+
+https://github.com/kapserge/afnor/blob/main/cores/tests.py
