@@ -4,6 +4,7 @@ This is a API project made with Django, Migrate CSV in SQLlite and without Djang
 
 ## How to run project?
 * Clone this repository.
+* open folder afnor
 * Built docker compose
 * Migrate CSV in SQLlite
 * Run project
