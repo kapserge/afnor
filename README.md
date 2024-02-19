@@ -34,25 +34,6 @@ docker-compose run web python manage.py test
 ```
 http http://localhost:8000/api/v2/obfuscateds/
 ```
-
-### Visualize one data Obfuscated
-
-```
-http http://localhost:8000/api/v2/obfuscateds/1/
-```
-
-### Edit one data Obfuscated
-
-```
-http POST http://localhost:8000/api/v2/obfuscateds/1/ \
-"NUMDOS": "DE237051",
-```
-
-### Delete one data Obfuscated
-
-```
-http DELETE http://localhost:8000/api/v2/obfuscateds/1/
-```
 ## TDD
 
 https://github.com/kapserge/afnor/blob/main/cores/tests.py
